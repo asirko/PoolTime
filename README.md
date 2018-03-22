@@ -1,27 +1,32 @@
 # PoolTime
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+Appli faite pour le bar **Le Ludic**. Permet de suivre l'utilisation des 
+billard par des compteur de temps.
 
-## Development server
+## Prérequis
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Installer NodeJS (version minimal : 8)
 
-## Code scaffolding
+## Récupérer les sources
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+En ligne de commande tapper:
 
-## Build
+```shell
+git clone https://github.com/asirko/PoolTime.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Installation
 
-## Running unit tests
+En ligne de commande tapper:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```shell
+npm i
+```
 
-## Running end-to-end tests
+## lancer l'application localement
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+En ligne de commande tapper:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+```shell
+npm run start
+```
