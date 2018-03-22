@@ -7,17 +7,28 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { AppComponent } from './app.component';
 
 import { environment } from '../environments/environment';
+import { ParamsComponent } from './params/params.component';
+import { TimersComponent } from './timers/timers.component';
+import { ParamsService } from './params/params.service';
+import { TimersService } from './timers/timers.service';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ParamsComponent,
+    TimersComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
+    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+    ParamsService,
+    TimersService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

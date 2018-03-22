@@ -1,0 +1,48 @@
+.back {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  max-width: 100vw;
+  td, th {
+    border: 1px solid black;
+    overflow: hidden;
+  }
+  .action {
+    font-size: 2rem;
+    padding: 3px 8px;
+    border: none;
+    & > * {
+      cursor: pointer;
+    }
+  }
+}
+.fa-trash {
+  color: red;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  padding: 3px 15px;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  font-size: 1.5rem;
+  cursor: pointer;
+
+  i {
+    margin: 0 15px;
+    font-size: 3rem;
+    color: #006600;
+    border-radius: 100%;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+}
