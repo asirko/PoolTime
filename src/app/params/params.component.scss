@@ -8,6 +8,9 @@ table {
   td, th {
     border: 1px solid black;
     overflow: hidden;
+    &:not(.action) {
+      background-color: #fff;
+    }
   }
   .action {
     font-size: 2rem;

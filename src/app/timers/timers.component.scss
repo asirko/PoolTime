@@ -1,3 +1,23 @@
+:host {
+  display: grid;
+  grid-gap: 10px;
+  // the grid splitting is made in typescript
+
+  width: calc(100vw - 40px);
+  height: calc(100vh - 40px);
+
+  & > pt-timer {
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+    padding: 5px;
+  }
+}
+
+
 .fa-cogs {
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  color: #3636b3;
 }

@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { LOCALE_ID, NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 
@@ -12,12 +12,18 @@ import { TimersComponent } from './timers/timers.component';
 import { ParamsService } from './params/params.service';
 import { TimersService } from './timers/timers.service';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TimerComponent } from './timers/timer/timer.component';
+
+import localeFR from '@angular/common/locales/fr';
+import { registerLocaleData } from '@angular/common';
+registerLocaleData(localeFR);
 
 @NgModule({
   declarations: [
     AppComponent,
     ParamsComponent,
-    TimersComponent
+    TimersComponent,
+    TimerComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +33,8 @@ import { ReactiveFormsModule } from '@angular/forms';
   ],
   providers: [
     ParamsService,
-    TimersService
+    TimersService,
+    { provide: LOCALE_ID, useValue: 'fr' }
   ],
   bootstrap: [AppComponent]
 })
