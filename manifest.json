@@ -8,11 +8,11 @@
   "theme_color": "#eeeeee",
   "icons": [
     {
-      "src": "https://asirko.github.io/PoolTime/assets/homescreen.png",
+      "src": "./assets/homescreen.png",
       "sizes": "600x677",
       "type": "image/png"
     }, {
-      "src": "https://asirko.github.io/PoolTime/assets/homescreen-144x144.png",
+      "src": "./assets/homescreen-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     }
