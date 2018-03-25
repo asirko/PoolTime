@@ -1,0 +1,16 @@
+[
+  "./dist/3rdpartylicenses.txt",
+  "./dist/fontawesome-webfont.674f50d287a8c48dc19b.eot",
+  "./dist/fontawesome-webfont.912ec66d7572ff821749.svg",
+  "./dist/fontawesome-webfont.af7ae505a9eed503f8b8.woff2",
+  "./dist/fontawesome-webfont.b06871f281fee6b241d6.ttf",
+  "./dist/fontawesome-webfont.fee66e712a8a08eef580.woff",
+  "./dist/index.html",
+  "./dist/inline.318b50c57b4eba3d437b.bundle.js",
+  "./dist/main.b8b0d27ec221f06f77ea.bundle.js",
+  "./dist/manifest.json",
+  "./dist/polyfills.bf95165a1d5098766b92.bundle.js",
+  "./dist/styles.a47a2984dd2d0fee3759.bundle.css",
+  "./dist/assets/homescreen-144x144.png",
+  "./dist/assets/homescreen.png"
+]
