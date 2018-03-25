@@ -1,0 +1,16 @@
+{
+  "name": "PoolTime",
+  "short_name": "PoolTime",
+  "description": "Permet de gérer les timers du billard du Ludic",
+  "lang": "fr-FR",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#eeeeee",
+  "icons": [
+    {
+      "src": "https://asirko.github.io/PoolTime/assets/homescreen.png",
+      "sizes": "600x677",
+      "type": "image/png"
+    }
+  ]
+}

@@ -7,10 +7,9 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://asirko.github.io/PoolTime/favicon.ico",
         "https://asirko.github.io/PoolTime/index.html",
         "https://asirko.github.io/PoolTime/inline.318b50c57b4eba3d437b.bundle.js",
-        "https://asirko.github.io/PoolTime/main.89a50b340a168543950a.bundle.js",
+        "https://asirko.github.io/PoolTime/main.ac50e9f16f93e075774b.bundle.js",
         "https://asirko.github.io/PoolTime/polyfills.bf95165a1d5098766b92.bundle.js",
         "https://asirko.github.io/PoolTime/styles.a47a2984dd2d0fee3759.bundle.css"
       ],
@@ -20,17 +19,19 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
-      "urls": [],
+      "urls": [
+        "https://asirko.github.io/PoolTime/assets/homescreen.png"
+      ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
     "https://asirko.github.io/PoolTime/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
-    "https://asirko.github.io/PoolTime/main.89a50b340a168543950a.bundle.js": "072a4e66a65db5a61a95266471a9e8204284db51",
+    "https://asirko.github.io/PoolTime/assets/homescreen.png": "38e4113ac54f789f6c82cbf9fd59b5faebba4391",
+    "https://asirko.github.io/PoolTime/main.ac50e9f16f93e075774b.bundle.js": "ed52232880b3f6b7a530b34fbcec19808e0a60b2",
     "https://asirko.github.io/PoolTime/polyfills.bf95165a1d5098766b92.bundle.js": "5f49131c0c147a20f91b1e77814434e0c77bd3dc",
     "https://asirko.github.io/PoolTime/styles.a47a2984dd2d0fee3759.bundle.css": "e222742e51c3beef093f23b56f49434ebd725607",
-    "https://asirko.github.io/PoolTime/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://asirko.github.io/PoolTime/index.html": "264d05479b1b867dfaa9169fc0dfcc25cf974a3f"
+    "https://asirko.github.io/PoolTime/index.html": "721b18ac0b590e1415918e28d988c85b8f2e7b36"
   }
 }
