@@ -15,7 +15,9 @@ self.addEventListener('fetch', function(evt) {
 function precache() {
   return caches.open(CACHE).then(function (cache) {
     return self.fetch('./file-to-cache.json?toto=' + Math.random())
+      .then(res => { console.log(res); return res; })
       .then(res => res.json())
+      .then(res => { console.log(res); return res; })
       .then(files => cache.addAll(files));
   });
 }
