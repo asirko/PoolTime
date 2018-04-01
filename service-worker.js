@@ -16,6 +16,7 @@ function precache() {
   return caches.open(CACHE).then(function (cache) {
     return self.fetch('./file-to-cache.json?toto=' + Math.random()).then(res => {
       console.log(res, res.json());
+      debugger;
       return cache.addAll(res.json());
     });
   });
