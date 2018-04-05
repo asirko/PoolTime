@@ -1,0 +1,14 @@
+<div class="name">
+  <span>{{ pool.name }}</span>
+  <span>{{ formattedDuration }}</span>
+</div>
+
+<div class="controls">
+  <i class="fa fa-play" (click)="startTimer()" *ngIf="!pool.startAt"></i>
+  <i class="fa fa-pause" (click)="pauseTimer()" *ngIf="pool.startAt"></i>
+  <i class="fa fa-stop" (click)="resetTimer()"></i>
+</div>
+
+<div class="price">
+  &nbsp;<span *ngIf="price">{{ price | currency:'EUR' }}</span>&nbsp;
+</div>

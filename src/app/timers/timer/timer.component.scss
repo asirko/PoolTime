@@ -1,0 +1,50 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+:host(.paused) {
+  background-color: rgba(255, 0, 0, 0.15);
+}
+:host(.started) {
+  background-color: rgba(0, 255, 0, 0.15);
+}
+
+.name {
+  padding: 0 10px 3px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.controls,
+.price {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 2.4rem;
+}
+
+.controls .fa {
+  cursor: pointer;
+
+  &.fa-play {
+    color: green;
+  }
+  &.fa-pause {
+    color: orange;
+  }
+  &.fa-stop {
+    color: red;
+  }
+}
+
+.price {
+  padding-top: 3px;
+  border-top: 1px solid #cccccc;
+  margin-top: 3px;
+}

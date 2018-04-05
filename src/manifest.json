@@ -1,0 +1,20 @@
+{
+  "name": "PoolTime",
+  "short_name": "PoolTime",
+  "description": "Permet de gérer les timers du billard du Ludic",
+  "lang": "fr-FR",
+  "start_url": "/PoolTime/",
+  "display": "standalone",
+  "theme_color": "#eeeeee",
+  "icons": [
+    {
+      "src": "./assets/homescreen.png",
+      "sizes": "600x677",
+      "type": "image/png"
+    }, {
+      "src": "./assets/homescreen-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ]
+}

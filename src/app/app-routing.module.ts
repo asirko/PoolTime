@@ -6,11 +6,7 @@ import { ParamsComponent } from './params/params.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/timers',
-    pathMatch: 'full'
-  }, {
-    path: 'timers',
-    component: TimersComponent
+    component: TimersComponent // test
   }, {
     path: 'params',
     component: ParamsComponent

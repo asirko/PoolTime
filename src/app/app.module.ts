@@ -28,7 +28,6 @@ registerLocaleData(localeFR);
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
     ReactiveFormsModule
   ],
   providers: [
