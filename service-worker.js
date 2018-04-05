@@ -1,4 +1,4 @@
-var CACHE = 'cache-and-update';
+const CACHE = 'cache-and-update';
 
 self.addEventListener('install', function(evt) {
   console.log('The service worker is being installed.');
@@ -33,8 +33,11 @@ function precache() {
 }
 
 function fromCache(request) {
+  console.log('request = ', request);
   return caches.open(CACHE).then(function (cache) {
+    console.log('cache = ', cache);
     return cache.match(request).then(function (matching) {
+      console.log('matching = ', matching);
       return matching || Promise.reject('no-match');
     });
   });
