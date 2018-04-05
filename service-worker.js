@@ -33,11 +33,8 @@ function precache() {
 }
 
 function fromCache(request) {
-  console.log('request = ', request);
   return caches.open(CACHE).then(function (cache) {
-    console.log('cache = ', cache);
     return cache.match(request).then(function (matching) {
-      console.log('matching = ', matching);
       return matching || Promise.reject('no-match');
     });
   });
