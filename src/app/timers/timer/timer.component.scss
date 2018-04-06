@@ -40,6 +40,11 @@
   }
   &.fa-stop {
     color: red;
+
+    &.disabled {
+      color: grey;
+      cursor: default;
+    }
   }
 }
 

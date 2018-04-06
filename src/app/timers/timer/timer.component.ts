@@ -64,9 +64,11 @@ export class TimerComponent implements OnInit {
   }
 
   resetTimer(): void {
-    this.pool.cumulateTime = 0;
-    this.pool.startAt = 0;
-    this.timersService.savePoolTime(this.pool);
+    if (!this.pool.startAt) {
+      this.pool.cumulateTime = 0;
+      this.pool.startAt = 0;
+      this.timersService.savePoolTime(this.pool);
+    }
   }
 
   private getWholeDuration (): number {
